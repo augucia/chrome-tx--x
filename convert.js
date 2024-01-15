@@ -18,8 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => response.json())
             .then(data => {
                 const textResult = data.text;
-                // Assuming 'finaltext' is a variable you intended to use, adjust as needed
-                const result = finaltext * textResult;
+                const result = selectedimage * textResult;
                 results.innerHTML = `${result.toFixed(2)}`;
             })
             .catch(error => {
