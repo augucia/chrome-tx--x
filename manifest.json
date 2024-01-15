@@ -1,0 +1,11 @@
+{
+    "name": "text converter",
+    "version": "1.0.0",
+    "description": "This is an extension to convert images into texts",
+    "manifest_version": 3,
+    "author": "augucia barnaba",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "text converter"
+  }
+}
